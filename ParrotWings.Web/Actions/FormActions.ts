@@ -13,9 +13,6 @@ export function makeDefaultValidationState(component: React.Component, ignore?: 
     }
 
     validation[key] = null;
-
-    // TODO: if (typeof component.state[key] === 'object') {
-    // }
   }
 
   component.state['validation'] = validation;

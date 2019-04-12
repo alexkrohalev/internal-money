@@ -34,7 +34,7 @@ namespace ParrotWings.Api.Repositories
       };
 
       
-      user.ParrotWings = 500; // TODO: config
+      user.ParrotWings = 500; 
 
       var result = await _userManager.CreateAsync(user, userModel.Password);
 
